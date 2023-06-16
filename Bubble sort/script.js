@@ -13,6 +13,7 @@ function bubbleSort(arr) {
         sorted = true;
       }
     }
+    console.log(smallest)
     if (sorted) {
       x = arr[i];
       arr[i] = arr[pos];
